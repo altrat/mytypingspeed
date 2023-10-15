@@ -1,2 +1,2 @@
 # mytypingspeed
-"mytypingspeed" is a project that helps anyone to know typing test of own.
+"mytypingspeed" is a project that helps anyone to know the typing test of own.
