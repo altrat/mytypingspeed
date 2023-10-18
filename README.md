@@ -1,2 +1,7 @@
 # mytypingspeed
-"mytypingspeed" is a project that helps anyone to know the typing test of own.
+"mytypingspeed" is a website in which you can check your typing speed.
+
+# Features
+- fast loading
+- smooth typing
+- accurate word per minute
