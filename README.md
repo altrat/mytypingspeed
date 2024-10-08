@@ -5,11 +5,5 @@
 [![Versions](https://img.shields.io/badge/versions-1.4.0-orange)](https://github.com/altrat/mytypingspeed)
 [![Documentation](https://img.shields.io/badge/documentation-view-violet)](https://github.com/altrat/mytypingspeed)
 [![Discussions](https://img.shields.io/badge/discussions-view-yellow)](https://github.com/altrat/mytypingspeed)
-# About
-mts "mytypingspeed" is a website on which you can check your typing speed. Additionally, you can track your typing speed and improve your accuracy with time. Currently, you can switch on between two themes viz. light and dark. 
-
-# Features
-- fast loading
-- smooth typing
-- accurate word per minute
-- minimal design
+![mts](https://github.com/altrat/mytypingspeed/blob/main/assets/mts.png)
+mts "mytypingspeed" is a place on the internet where you can check your typing speed. Additionally, you can track your word per second, errors, and improve your accuracy with time.
