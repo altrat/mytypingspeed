@@ -1,21 +1,82 @@
 <!DOCTYPE html>
-<html>
-  <head><title>mts</title></head>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="assets/img/favicon.png" rel="icon">
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+    <title>mytypingspeed</title>
+    <link rel='stylesheet' href="style.css">
+</head>
 <body>
-<header class="navbar">
-    <div class="logo">
-      <h1>mts</h1>
-    </div>
-    <div class="navlink">
-      <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Contribute</a></li>
-        <li><a href="#">Settings</a></li>
-        <li><a href="#">More</a></li>
-      </ul>
-    </div>
-  </header>
+    <header class="navbar">
+        <div class="logo">
+            <h3>mytypingspeed</h3>
+        </div>
+        <a href="#" class="burger">
+            <span class="line"></span>
+            <span class="line"></span>
+            <span class="line"></span>
+        </a>
+        <ul class="navlinks">
+            <li><a class="active" href="#">Home</a></li>
+            <li><a href="#">Release Notes</a></li>
+            <li><a href="#">Contribute</a></li>
+            <li><a href="#">License</a></li>
+            <li><a href="#">Downloads</a></li>
+            <li><a href="#">Documentation</a></li>
+            <li><a href="#">GitHub</a></li>
+        </ul>
+    </header>
+    <section class="banner">
+        <div class="content">
+            <div class="container">
+                <div class="quote">
+                  Please click inside the box to start the game!
+                </div>
+                <textarea class="input_area"
+                  placeholder="Type here..."
+                  oninput="processCurrentText()"
+                  onfocus="startGame()">
+                </textarea>
+                <button class="restart_btn"
+                  onclick="resetValues()">
+                  Restart
+                </button>
+                <div class="header">
+                    <div class="wpm">
+                      <div class="header_text">WPM</div>
+                      <div class="curr_wpm">100</div>
+                    </div>
+                    <div class="cpm">
+                      <div class="header_text">CPM</div>
+                      <div class="curr_cpm">100</div>
+                    </div>
+                    <div class="errors">
+                      <div class="header_text">Errors</div>
+                      <div class="curr_errors">0</div>
+                    </div>
+                    <div class="timer">
+                      <div class="header_text">Time</div>
+                      <div class="curr_time">60s</div>
+                    </div>
+                    <div class="accuracy">
+                      <div class="header_text">% Accuracy</div>
+                      <div class="curr_accuracy">100</div>
+                    </div>
+                  </div>
+              </div>
+        </div>
+    </section>
 </body>
-<footer>Copyright &copy; 2023</footer>
+<footer class="foot">
+    <div class="leftitems">
+        <p>&copy; 2024 | mytypingspeed</p>
+    </div>
+    <div class="rightitems">
+        <p>Proudly hosted by</p><span>GitHub</span>
+    </div>
+</footer>
+<script src="script.js"></script>
 </html>
